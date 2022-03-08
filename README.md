@@ -1,2 +1,1 @@
-# responsive-designs
-Contains all responsive websites @mightyman has worked on
+TinDog Starting Files

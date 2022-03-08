@@ -1,0 +1,159 @@
+/* Element selectors   */
+.body-section {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* Top section elements */
+#top-container {
+  padding: 3% 15% 7%;
+}
+
+.section-container {
+    padding: 7% 15%;
+
+}
+
+ /* color sections  */
+ .colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+ }
+
+.white-section {
+    background-color: #fff;
+
+}
+
+/* title headings  */
+.big-title {
+    font-family: "Montserrat-Black";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Heading elemetnts with buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Navbar elements  */
+.navbar {
+  margin: 0 0 4.5rem;
+}
+
+.navbar-brand-1 {
+  color: #fff;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-brand-1:hover {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+/* Image side  */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* Feature box section  */
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.features-text-title {
+  font-family: "Montserrat-Bold";
+  font-weight: 900;
+}
+
+.icon {
+  padding-bottom: 1rem;
+  color: #ef8178;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section  */
+#testimonials {
+  background-color: #ef8178;
+}
+
+#tesimonials-header {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8178;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section  */
+#pricing {
+  padding: 10%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* section cta call to action  */
+
+
+/* copyright section  */
+
+.footer-icons {
+  margin: 20px 10px;
+}
